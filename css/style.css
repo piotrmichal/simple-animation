@@ -1,0 +1,77 @@
+html {
+	height :100%;
+}
+body {
+	background: linear-gradient(to bottom right, #BBAE98, #281F25) no-repeat;
+	text-align: center;
+}
+
+p {
+	color: #FFF;
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: #0E0C08;
+	text-shadow: 1px 1px 6px #303030;
+	font-size: 46px;
+}
+
+#box {
+	border-radius: 100%;
+	position: relative;
+	margin: 50px auto;
+	margin-top: 100px;
+	width: 100px;
+	height: 100px;
+	background: radial-gradient(#FF9F00, #FF3100);
+	box-shadow: 0px 0px 20px #000;
+	border: 1px solid #9A3200;
+	line-height: 100px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+}
+
+#control-panel {
+	display: flex;
+	justify-content: center;
+	z-index: 1;
+	width: 200px;
+	background: linear-gradient(#3D3A35, #141211);
+	padding: 8px;
+	border-radius: 3px;
+	box-shadow: 0px 3px 20px 2px #000;
+	border: 1px solid #202020;
+}
+
+.control {
+	margin: 3px;
+	background: linear-gradient(#BBAE98, #281F25);
+	padding: 5px 20px;
+	border: 1px solid #9A3200;
+	border-radius: 5px;
+}
+
+#left {
+	display: flex;
+	align-items: flex-end;
+}
+
+#right {
+	display: flex;
+	align-items: flex-end;
+}
+
+.control:hover {
+	background: linear-gradient(#CCBFA9, #392F36);
+}
+
+.control:active {
+	box-shadow: 0 0 10px #303030 inset;
+}
